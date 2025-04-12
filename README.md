@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -52,3 +53,6 @@ export default tseslint.config({
   },
 })
 ```
+# mini-rede-social
+App de rede social com React, TypeScript e LocalStorage — usuários podem postar, curtir e comentar.
+>>>>>>> 9f080fb711638c7f8ffff32d8ff3a586e2a1eb76
