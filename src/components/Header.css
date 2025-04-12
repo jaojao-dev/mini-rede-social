@@ -1,0 +1,35 @@
+.header {
+   text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    color: #e1306c;
+    font-size: 30px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      margin-left: 0px;
+      padding: 10px;
+      margin-right: 0;
+    }
+  
+    .logo {
+      font-size: 24px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  }

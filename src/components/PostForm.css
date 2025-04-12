@@ -1,0 +1,115 @@
+/* Estilo do formulário */
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Estilo do input de texto para a descrição */
+.post-form-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo do botão customizado */
+.custom-file-button {
+  background-color: #e1306c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-file-button:hover {
+  background-color: #c13584;
+}
+
+/* Ocultar o input de file */
+.input-file {
+  display: none;
+}
+
+/* Estilo da imagem exibida após upload */
+.image-preview {
+  width: 100%;              /* A imagem ocupará toda a largura disponível do contêiner */
+  max-width: 300px;         /* Largura máxima de 300px */
+  max-height: 300px;        /* Altura máxima de 300px */
+  object-fit: contain;      /* A imagem será redimensionada para caber no contêiner mantendo as proporções */
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do botão de submit */
+.post-form-button {
+  padding: 10px 20px;
+  background-color: #e1306c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-form-button:hover {
+  background-color: #c13584;
+}
+
+/* Estilo da caixa de descrição */
+textarea {
+  width: 52.5%;        /* Largura fixa */
+  height: 150px;       /* Altura fixa */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;        /* Não permite redimensionar */
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #e1306c; /* Cor de foco */
+}
+/* Estilo para o botão Criar Novo Post */
+.create-post-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.create-post-button:hover {
+  background-color: #45a049;
+}
+
+.cancel-post-button{
+  background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.cancel-post-button:hover {
+  background-color: #e53935;
+}
+
+@media (max-width: 768px) {
+  .post-form-input, textarea {
+    width: 80%;
+    height: 200px;
+  }
+
+  .image-preview {
+    max-width: 100%;
+  }
+}
