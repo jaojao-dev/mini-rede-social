@@ -21,7 +21,7 @@ Uma aplicação de rede social feita com React + TypeScript, onde usuários pode
 
 ## 🔧 Como rodar:
 ```bash
-git clone https://github.com/seu-usuario/mini-rede-social.git
+git clone https://github.com/jaojao-dev/mini-rede-social.git
 cd mini-rede-social
 npm install
 npm run dev
